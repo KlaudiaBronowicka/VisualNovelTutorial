@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EC7AE9E9-FACE-83EB-4B17-D58E7EE5C872}</ProjectGuid>
+    <ProjectGuid>{18231094-624B-6D78-6464-DAF52D1DB2BE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -678,7 +678,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Ink-Libraries.csproj">
-      <Project>{AF483B83-F3E8-0B4D-0221-E66AEE27FC79}</Project>
+      <Project>{F7D8A401-8E51-DCB4-1CB3-25A53916FB52}</Project>
       <Name>Ink-Libraries</Name>
     </ProjectReference>
   </ItemGroup>

@@ -94,25 +94,6 @@ Me: But at least she's not denying it, I guess. #thought
 *** Next time you feel bad, talk to me. -> throwing_up_support
 *** Throwing up is not the answer. -> throwing_up_dismiss
 
-=== throwing_up_push ===
-Me: I can't let her lie to me like that. #thought
-Me: She must have her reasons for it, but it's not gonna get us anywhere if we don't tak about it. #thought
-Me: I know what I heard, it's hard to mistaken it. 
-Alice: I just, I...
-Alice: I didn't feel good. My stomach felt funny and I thought maybe I should just, you know.
-Me: So you threw up to make yourself feel better?
-Alice: I guess, yeah.
-Me: Well, did it help?
-Alice: A bit. I must have eaten something weird.
-Me: But she barely ate last night. #thought
-Me: Maybe it was something she'd eaten earlier. #thought
-Me: I don't think this is her true reason. #thought
-Me: But at least she's not denying it, I guess. #thought
-Me: Why did you lie to me then?
-Alice: I just, I didn't want to worry you. 
-*** Throwing up is not the answer. -> throwing_up_dismiss
-*** Next time you feel bad, talk to me. -> throwing_up_support
-
 === throwing_up_support ===
 ~relationship_strength += 10
 ~mental_health += 5
@@ -147,64 +128,6 @@ Me: ...
 Me: Just don't do it anymore, okay? 
 Me: It's not like it's going to help with anything.
 Alice: Yeah, I'm sorry...
--> END
-
-=== throwing_up_rough ===
-~mental_health -= 10
-~relationship_strength -= 10
-Me: I can't believe she's lying to me about something this simple #thought
-Me: I'm starting to be fed up with this evasiveness #thought
-Me: Why are you lying to me?
-Alice: I'm not!
-Me: Yes, you are and you know it! What's going on?
-Alice: What's it to you anyway? 
-Me: Wha- what?
-Alice: Even if I was throwing up, so what!? Why do you care!?
-*** Fine, suit yourself. -> throwing_up_suit_yourself
-*** Cause I'm worried about you! -> throwing_up_argue_worried
-
-=== throwing_up_suit_yourself ===
-~mental_health -= 5
-~relationship_strength -= 5
-Me: Fine, suit yourself!
-Alice: Fine!
-Me: I can't deal with this childish behaviour! #thought
-Me: I can't believe she's acting like this! #thought
-Me: What is going on, really!? #thought
-Me: But fine, if she doesn't wanna talk, then so be it! #thought
--> END
-
-=== throwing_up_argue_worried ===
-~know_about_food_issue = true
-Me: Cause I'm worried about you!
-Alice: ...
-Me: ...
-Alice: I...
-Alice: I have been worried about putting on weight recently... 
-Alice: Not that you would understand.
-Alice: ...
-Alice: Anyway...
-Me: Ouch. #thought
-Me: I wouldn't understand? #thought
-Me: Does she really think I'm that useless? #thought
-Me: She seemed to regret saying this much. #thought
-Me: At least I now know something. #thought
-Me: But I wish it didn't all go down like this #thought
--> END
-
-=== throwing_up_let_go ===
-Me: She's clearly hiding something. #thought
-Me: I don't feel like dragging it out of her by force, though. #thought
-Me: Okay, babe. If you say so.
--> END
-
-=== food_talk_let_go_here_for_you ===
-Me: I'm here for you babe, you know that?
-Me: Anytime you want to talk, I'm here.
-Me: Come here.
-Me: I guess a cuddle and some support is all I can do for now. #thought
-Me: She's somewhat distant though. #thought
-Me: I probably exhausted her with all my questions. #thought
 -> END
 
 === Here_for_you_ignorant ===
